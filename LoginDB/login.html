@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Page</title>
+
+        <!--Linking css-->
+        <link rel="stylesheet" href="login.css">
+
+        <!--Font family-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <h2>Welcome to</h2>
+            <h1>WEB PAGER</h1>
+            <p>Enter your details to login and start using our resources</p>
+
+            <p class="submitmsg"></p>
+
+            <form action="login.php" method="post">
+
+                Name<input type="text" name="name" id="name" placeholder="Enter your name">
+
+                Email<input type="text" name="email" id="email" placeholder="Enter your email">
+
+                Password<input type="password" name="password" id="password" placeholder="Enter your password">
+
+                <button class="btn" onclick="start()">Signup</button>
+
+            </form>
+        </div>
+
+        <!--Linking javascript-->
+        <script src="login.js"></script>
+    </body>
+</html>
